@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+
+.wiki-content {
+	max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.jnj-header {
+    display: block;
+	width: 100%;
+	position: relative;
+	margin-bottom: 3rem;
+	color: #fff;
+	font-size: 96px;
+	line-height: 82px;
+	padding: 8rem 1rem 1rem 1rem;
+	font-family: 'Rozha One', serif;
+    background: #D61F20 url(https://www.jnjmedicaldevices.com/sites/default/files/2020-03/Background.png);
+  	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+
+.jnj-page-nav_list {
+	list-style: none;
+	font-size: 14px;
+	line-height: 32px;
+	color: #8E8E8E;
+	border-left: 1px solid #8E8E8E;
+}
+
+
+.jnj-page-nav_list ul {
+	list-style: none;
+}
+
+
+.jnj-page-nav_list a {
+	color: #8E8E8E!important;
+}
+
+
+/*Online Forms*/
+.contact-card{
+    margin: 10px 0px 0px;
+}
+
+
+.contact-card > a > img {
+    vertical-align: middle;
+    width: 48px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.contact-card > a {
+    font-weight: 600;
+}
+
+/*hid title text, page details, & comment section*/
+#main-header:not(.doctheme-no-override) #title-text{
+    display: none;
+}
+
+.page-metadata, .page-metadata ul li a:link, .page-metadata ul li a:focus, .page-metadata ul li a:hover, .page-metadata ul li a:active, .page-metadata ul li a:visited{
+    display: none;
+}
+
+#comments-section .quick-comment-container.add {
+    display: none;
+}
+
+/*gray sidebar*/
+div.cell.aside{
+    background-color: #FFFFFF;
+    padding-top: 0px;
+}
+
+/*all the panels?*/
+.wiki-content .confluenceTh,
+.wiki-content .confluenceTd {
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*Product & Services Panel*/
+.confluenceTable:first-child, .table-wrap:first-child{
+    table-layout: fixed;
+}
+
+.wiki-content .confluence-embedded-file-wrapper .confluence-embedded-image[height], .wiki-content .confluence-embedded-file-wrapper .confluence-embedded-image[width] {
+    width: 100%;
+    height: auto;
+}
+
+.panelHeader {
+    font-size: large;
+}
